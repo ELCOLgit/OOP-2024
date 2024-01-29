@@ -17,6 +17,15 @@ public class Main
 
 	public void doCatStuff()
 	{
+		Cat choco = new Cat("Choco");
+		choco.speak();
+
+		Cat ginger = new Cat("Ginger");
+
+		for (int i = 0 ; i < 9 ; i++)
+		{
+			ginger.kill();
+		}
 		// Put your code here
 		System.out.println("cats are from space");
 	}
