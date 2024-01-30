@@ -11,6 +11,19 @@ public class Main
         processing.core.PApplet.runSketch( a, new HelloProcessing());
     }
 
+	public void FirstProcessing()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new FirstProcessing());
+	}
+
+	public void illuminati()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new illuminati());
+	}
+
+
 	public void doDogStuff()
 	{
 		// Create a new Dog called Misty
@@ -49,6 +62,10 @@ public class Main
 		m.doCatStuff();
 
 		m.helloProcessing();
+
+		m.FirstProcessing();
+
+		m.illuminati();
 	}
 	
 }
